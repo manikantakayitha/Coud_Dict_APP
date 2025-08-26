@@ -1,0 +1,126 @@
+[
+    {
+        "term": "EC2",
+        "definition": "Amazon Elastic Compute Cloud (EC2) is a web service that provides scalable, resizable compute capacity in the cloud. It allows you to launch and manage virtual machines (instances) with flexible configuration of CPU, memory, storage, and networking. EC2 supports auto scaling, secure networking, and a range of instance types to accommodate different workloads, from web servers to high-performance computing."
+    },
+    {
+        "term": "Lambda",
+        "definition": "AWS Lambda is a serverless compute service that lets you run code in response to triggers without provisioning or managing servers. You simply upload your function code, specify the triggering event (such as an HTTP request or a file uploaded to S3), and Lambda automatically provisions and scales the infrastructure as needed. You are billed per millisecond of execution time."
+    },
+    {
+        "term": "AWS Fargate",
+        "definition": "AWS Fargate is a serverless compute engine that allows you to run containers without managing servers or clusters. You specify the container image, and Fargate provisions, manages, and scales the compute resources needed to run your containers."
+    },
+    {
+        "term": "ECS",
+        "definition": "Amazon Elastic Container Service (ECS) is a fully managed container orchestration service that allows you to deploy, manage, and scale Docker containers in the cloud. It supports both EC2 and Fargate launch types and integrates with AWS networking and security services."
+    },
+    {
+        "term": "EKS",
+        "definition": "Amazon Elastic Kubernetes Service (EKS) is a fully managed Kubernetes control plane that automates cluster management, scaling, and security, allowing you to run Kubernetes workloads on AWS more easily."
+    },
+    {
+        "term": "S3",
+        "definition": "Amazon Simple Storage Service (S3) provides scalable object storage for data backup, archival, analytics, content storage, and distribution. It offers robust security, access controls, and 99.999999999% (11 nines) durability."
+    },
+    {
+        "term": "RDS",
+        "definition": "Amazon Relational Database Service (RDS) is a managed service for setting up, operating, and scaling relational databases in the cloud using popular engines like MySQL, PostgreSQL, MariaDB, Oracle, and SQL Server. RDS automates administrative tasks such as hardware provisioning, backups, and patching."
+    },
+    {
+        "term": "Amazon Aurora",
+        "definition": "Amazon Aurora is a MySQL- and PostgreSQL-compatible cloud-native database that offers up to five times the performance of standard MySQL and three times the performance of PostgreSQL, with high availability, durability, and security."
+    },
+    {
+        "term": "DynamoDB",
+        "definition": "Amazon DynamoDB is a managed NoSQL database service that provides fast and predictable performance with seamless scalability for key-value and document data, supporting millisecond latency at any scale."
+    },
+    {
+        "term": "VPC",
+        "definition": "Amazon Virtual Private Cloud (VPC) enables you to provision a logically isolated section of the AWS cloud where you can launch AWS resources in a defined network. You control your own IP address range, subnets, route tables, and network gateways."
+    },
+    {
+        "term": "Route 53",
+        "definition": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It routes end-user requests to internet applications, offers domain registration, and supports advanced routing policies like latency-based, geolocation, and weighted routing."
+    },
+    {
+        "term": "CloudFront",
+        "definition": "Amazon CloudFront is a global content delivery network (CDN) that delivers content (websites, APIs, video) with low latency from edge locations around the world, with security features like DDoS mitigation and integrated AWS Shield."
+    },
+    {
+        "term": "IAM",
+        "definition": "AWS Identity and Access Management (IAM) allows you to control access to AWS services and resources securely. You create and manage AWS users and groups and use permissions to allow and deny their access to resources."
+    },
+    {
+        "term": "AWS WAF",
+        "definition": "AWS Web Application Firewall (WAF) helps protect your web applications from common exploits and vulnerabilities. It allows you to configure rules to allow, block, or monitor web requests based on conditions such as IP addresses, HTTP headers, and body."
+    },
+    {
+        "term": "CloudWatch",
+        "definition": "Amazon CloudWatch is a monitoring and observability service that provides data and actionable insights for AWS resources, applications, and services. It collects metrics and logs, triggers alarms, and enables automated responses."
+    },
+    {
+        "term": "CloudFormation",
+        "definition": "AWS CloudFormation is an infrastructure as code (IaC) service that lets you model, provision, and manage AWS resources using templates written in JSON or YAML."
+    },
+    {
+        "term": "AWS CodePipeline",
+        "definition": "AWS CodePipeline is a continuous integration and continuous delivery (CI/CD) service for automating build, test, and deploy phases of application development."
+    },
+    {
+        "term": "Amazon Athena",
+        "definition": "Amazon Athena is a serverless interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL, without managing infrastructure."
+    },
+    {
+        "term": "Amazon SageMaker",
+        "definition": "Amazon SageMaker is a fully managed machine learning service covering the entire ML workflow—data labeling, model training, tuning, and deployment—at scale."
+    },
+    {
+        "term": "SQS",
+        "definition": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables decoupling and scaling of microservices, distributed systems, and serverless apps."
+    },
+    {
+        "term": "SNS",
+        "definition": "Amazon Simple Notification Service (SNS) is a fully managed pub/sub messaging and mobile notifications service enabling notifications to distributed systems and users."
+    },
+    {
+        "term": "ElastiCache",
+        "definition": "Amazon ElastiCache is a fully managed in-memory data store, compatible with Redis or Memcached, to support caching for web apps, session management, and real-time analytics."
+    },
+    {
+        "term": "CloudTrail",
+        "definition": "AWS CloudTrail records and logs account activity across AWS infrastructure, including API calls made through the AWS Management Console, AWS SDKs, command line tools, and other AWS services."
+    },
+    {
+        "term": "Step Functions",
+        "definition": "AWS Step Functions enables you to coordinate multiple AWS services into serverless workflows, with visual diagrams, branching, error handling, and retry logic."
+    },
+    {
+        "term": "AppSync",
+        "definition": "AWS AppSync is a managed service for GraphQL APIs that securely accesses, combines, and modifies data from multiple sources in real-time."
+    },
+    {
+        "term": "Inspector",
+        "definition": "Amazon Inspector is a security assessment service that automatically scans AWS-based workloads for vulnerabilities and deviations from best practices."
+    },
+    {
+        "term": "Direct Connect",
+        "definition": "AWS Direct Connect is a dedicated cloud service that establishes a private network connection from your premises to AWS, increasing bandwidth throughput and consistent network performance."
+    },
+    {
+        "term": "Lightsail",
+        "definition": "Amazon Lightsail is a simplified cloud platform that offers compute, storage, and networking for small web applications and websites, with predictable, low-cost pricing."
+    },
+    {
+        "term": "Cloud9",
+        "definition": "AWS Cloud9 is a cloud-based integrated development environment (IDE) enabling writing, running, and debugging code collaboratively from a web browser."
+    },
+    {
+        "term": "Cognito",
+        "definition": "Amazon Cognito is a service for user authentication, authorization, and user management for web and mobile apps, featuring sign-in and sign-up, third-party credentials, and user pools."
+    },
+    {
+        "term": "Glacier",
+        "definition": "Amazon S3 Glacier is a secure, durable, and low-cost storage class for data archiving and long-term backup, with flexible retrieval options."
+    }
+]

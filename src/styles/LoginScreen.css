@@ -1,0 +1,83 @@
+/* src/styles/LoginScreen.css */
+.login-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+html.dark .login-screen {
+  background-color: #020617;
+}
+.login-card {
+  width: 100%;
+  max-width: 24rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+html.dark .login-card {
+  background-color: #0f172a;
+}
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1e293b;
+}
+html.dark .login-title {
+  color: #ffffff;
+}
+.login-form, .form-group {
+  margin-top: 1.5rem;
+}
+.form-label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #475569;
+}
+html.dark .form-label {
+  color: #d1d5db;
+}
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  color: #1f2937;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+.form-input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px #3b82f6;
+}
+html.dark .form-input {
+  color: #ffffff;
+  background-color: #1f2937;
+  border-color: #4b5567;
+}
+.submit-button {
+  width: 100%;
+  padding: 0.75rem 0;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.submit-button:hover {
+  background-color: #1d4ed8;
+}
+.submit-button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px #60a5fa;
+}

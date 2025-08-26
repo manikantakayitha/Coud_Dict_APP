@@ -1,0 +1,56 @@
+/* src/styles/DefinitionCard.css */
+.definition-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  transition: all 0.3s;
+}
+.definition-card:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  transform: translateY(-0.25rem);
+}
+html.dark .definition-card {
+  background-color: #1f2937; /* gray-800 */
+}
+.card-content {
+  flex-grow: 1;
+}
+.card-term {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b; /* slate-800 */
+}
+html.dark .card-term {
+  color: #ffffff;
+}
+.card-definition {
+  line-height: 1.625;
+  color: #334155; /* slate-600 */
+}
+html.dark .card-definition {
+  color: #d1d5db; /* gray-300 */
+}
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.favorite-button {
+  padding: 0.5rem;
+  border-radius: 9999px;
+  color: #9ca3af; /* gray-400 */
+  transition: color 0.2s;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.favorite-button:hover {
+  color: #f59e0b; /* yellow-500 */
+}
+.favorite-button.is-favorite {
+  color: #f59e0b; /* yellow-500 */
+}
